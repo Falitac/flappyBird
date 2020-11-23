@@ -1,0 +1,52 @@
+@font-face {
+    font-family: PressStart;
+    src: url('PressStart2P.ttf');
+}
+
+body {
+  font-family: PressStart;
+  background-color: #444;
+  overflow: hidden;
+  margin: 0;
+  color: #eee;
+  font-family: Verdana;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+
+.cnv {
+    background: rgb(113, 197, 207);
+}
+
+.slider {
+    width: 80%;
+    -webkit-appearance: none;
+    appearance: none;
+    outline: none;
+    background: #d3d3d3;
+    opacity:  0.7;
+    float: right;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 30px;
+    height: 15px;
+    cursor: pointer;
+}
+
+.slider:hover {
+    opacity: 1;
+}
+
+#angle::-webkit-slider-thumb {
+    background: #27b547;
+}
+
+#length::-webkit-slider-thumb {
+    background: #d16d3c;
+}
